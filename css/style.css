@@ -826,6 +826,10 @@ img {
     font-size: 16px;
 }
 
+.footer .contact-info img {
+	max-height: 16px;
+}
+
 .footer .contact-info p:last-child {
     margin-bottom: 0;
 }
