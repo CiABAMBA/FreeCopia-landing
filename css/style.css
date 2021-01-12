@@ -824,6 +824,32 @@ img {
 }
 
 /**************************************/
+/************* Calendly CSS ************/
+/**************************************/
+.calendly-call {
+    position: relative;
+    padding: 100px 0;
+    text-align: center;
+    background: #ffffff;
+}
+
+.calendly-call .btn {
+	text-transform: uppercase; 
+	/* width: 250px; */
+	margin: 0 auto;
+    display: block;
+    width: 20%;
+    color: #ffffff;
+    background: #009788;
+	border-radius: 15px;
+}
+
+.calendly-call .btn:hover {
+    color: #ffffff;
+    background: #f38933;
+}
+
+/**************************************/
 /************* Footer CSS *************/
 /**************************************/
 .footer {
