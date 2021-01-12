@@ -790,7 +790,38 @@ img {
     background: #f38933;
 }
 
+/**************************************/
+/************* Map CSS ************/
+/**************************************/
+.map {
+    position: relative;
+    padding: 100px 0;
+    text-align: center;
+    background: #ffffff;
+}
 
+.map .map-frame {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.map .map-control:focus {
+    border: 1px solid #ffffff;
+    box-shadow: none;
+}
+
+.map .btn {
+    display: block;
+    width: 100%;
+    color: #ffffff;
+    background: #ffffff;
+	border-radius: 15px;
+}
+
+.map .btn:hover {
+    color: #ffffff;
+    background: #f38933;
+}
 
 /**************************************/
 /************* Footer CSS *************/
